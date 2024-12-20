@@ -26,6 +26,29 @@
 
 .App-link {
   color: #61dafb;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.App-section {
+  padding: 20px;
+}
+
+.App-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-project {
+  background: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

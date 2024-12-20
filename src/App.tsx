@@ -1,25 +1,35 @@
 import React from 'react';
 import './App.css';
-import logo from './logo.svg';
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="React Logo" style={{ height:100, width: 100}}/>
+        <h1>Welcome to My Portfolio</h1>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Hi, I'm [Your Name], a [Your Profession]. Check out my projects below.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#projects"
         >
-          Learn React today
+          View Projects
         </a>
       </header>
+      <section id="projects" className="App-section">
+        <h2>Projects</h2>
+        <div className="App-projects">
+          <div className="App-project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+          </div>
+          <div className="App-project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+          </div>
+          {/* Add more projects as needed */}
+        </div>
+      </section>
     </div>
   );
 }
